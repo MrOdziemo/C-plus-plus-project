@@ -22,8 +22,7 @@ int main() //start chief function
       cout<<"This is name reverse: ";
       for(int i = name.size()-1; i>=0; --i) //reverse string name
         cout<<name.at(i);
-      //condictional instruction to replayprogram
-      cout<<endl<<endl<<"You want again use program? (1-yes, other number-no)"<<endl;
+      cout<<endl<<endl<<"You want again use program? (1-yes, other number-no)"<<endl; //condictional instruction to replayprogram
       cin>>answer;
       if (answer==1)
       {
