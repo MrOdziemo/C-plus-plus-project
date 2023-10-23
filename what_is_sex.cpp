@@ -34,8 +34,7 @@ int main() //start chief function
       }
     } else { //if not is woman
       cout<<endl<<"This is men"<<endl<<endl;
-      //condictional instruction to replayprogram
-      cout<<"You want again use program? (1-yes, other number-no)"<<endl;
+      cout<<"You want again use program? (1-yes, other number-no)"<<endl; //condictional instruction to replayprogram
       cin>>answer;
       if (answer==1)
       {
