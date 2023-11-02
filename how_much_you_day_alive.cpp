@@ -19,9 +19,9 @@ int main()
     lis = 304;
     gru = 334;
 
-    cout<<"Podaj numer aktualnego roku: ";
+    cout<<"Enter the current year number: ";
     cin>>year;
-    cout<<"Podaj numer aktualnego miesiąca: ";
+    cout<<"Enter the current month number: ";
     cin>>month;
     if (month == 1)
     {
@@ -71,11 +71,11 @@ int main()
     {
         month = gru;
     }
-    cout<<"Podaj numer dzisiajszego dnia: ";
+    cout<<"Enter today's number: ";
     cin>>day;
-    cout<<"Podaj swój rok urodzenia: ";
+    cout<<"Enter your year of birth: ";
     cin>>year2;
-    cout<<"Podaj numer swojego miesiąca urodzenia: ";
+    cout<<"Enter your month of birth number: ";
     cin>>month2;
     if (month2 == 1)
     {
@@ -125,7 +125,7 @@ int main()
     {
         month2 = gru;
     }
-    cout<<"Podaj swój numer dnia urodzenia: ";
+    cout<<"Enter your date of birth number: ";
     cin>>day2;
 
     if (month2 > month)
@@ -135,14 +135,14 @@ int main()
         int livemonth = month2 - month;
         int live2 = live * 365 + livemonth + daylive;
 
-        cout<<"Żyjesz "<<live2<<" dni.";
+        cout<<"You lived "<<live2<<" days.";
     } else {
         int live = year - year2;
         int daylife = day2 - day;
         int livemonth = month2 - month;
         int live2 = live * 365 - livemonth - daylife;
 
-        cout<<"Żyjesz "<<live2<<" dni.";
+        cout<<"You lived "<<live2<<" days.";
     }
      
     return 0;
