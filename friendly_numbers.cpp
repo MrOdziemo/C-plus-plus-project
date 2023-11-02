@@ -5,9 +5,9 @@ int main()
 {
     int a, b, suma = 0, suma2 = 0;
 
-    cout<<"Wprowad¿ pierwsz¹ liczbê: ";
+    cout<<"Write first number: ";
     cin>>a;
-    cout<<"WprowadŸ drug¹ liczbê: ";
+    cout<<"Write second number: ";
     cin>>b;
 
 
@@ -24,9 +24,9 @@ int main()
 
     if (suma == suma2)
     {
-        cout<<"Liczba "<<a<<" i liczba "<<b<<" s¹ liczbami zaprzyjaŸnionymi";
+        cout<<"Number "<<a<<" and number "<<b<<" are friendly numbers";
     } else {
-        cout<<"Liczba "<<a<<" i liczba "<<b<<" nie s¹ liczbami zaprzyjaŸnionymi";
+        cout<<"Number "<<a<<" and number "<<b<<" are not friendly numbers";
     }
 
 
