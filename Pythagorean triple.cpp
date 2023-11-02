@@ -5,11 +5,11 @@ int main()
 {
     int a, b, c, triple_one, triple_two;
 
-    cout<<"Podaj liczbê a: ";
+    cout<<"You write number a: ";
     cin>>a;
-    cout<<"Podaj liczbê b: ";
+    cout<<"You write number b: ";
     cin>>b;
-    cout<<"Podaj liczbê c: ";
+    cout<<"You write number c: ";
     cin>>c;
 
 
