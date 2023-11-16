@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  char mark;
+  int thismark = 0;
+  int big_mark = 0;
+
+  while(true)
+    {
+    cout<<"You give mark: "<<endl;
+    cin>>mark;
+
+    if (mark == 'k')
+      break;
+
+    if (mark == 'a' || mark == 'b' || mark == 'c' || mark == 'd' || mark == 'e' || mark == 'f' || mark == 'g' || mark == 'h' || mark == 'i' || mark == 'j' || mark == 'l' || mark == 'm' || mark == 'n' || mark == 'o' || mark == 'p' || mark == 'r' || mark == 's' || mark == 't' || mark == 'u' || mark == 'w' || mark == 'y' || mark == 'z')
+    {
+      thismark += 1;
+    }
+
+    if (mark == 'A' || mark == 'B' || mark == 'C' || mark == 'D' || mark == 'E' || mark == 'F' || mark == 'G' || mark == 'H' || mark == 'I' || mark == 'J' || mark == 'L' || mark == 'M' || mark == 'N' || mark == 'O' || mark == 'P' || mark == 'R' || mark == 'S' || mark == 'T' || mark == 'U' || mark == 'W' || mark == 'Y' || mark == 'Z')
+    {
+      thismark += 1;
+      big_mark += 1;
+    }
+    }
+
+  cout<<"Number of marks: "<<thismark<<endl;
+  cout<<"number of big marks: "<<big_mark<<endl;
+  
+  return 0;
+}
