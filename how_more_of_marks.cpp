@@ -6,11 +6,11 @@ using namespace std;
 int main()
 {
     char mark, sign;
-    int all_mark = 0;
-    int small_mark = 0;
-    int big_mark = 0;
-    int number_mark = 0;
-    int other_mark = 0;
+    int all_mark = 1;
+    int small_mark = 1;
+    int big_mark = 1;
+    int number_mark = 1;
+    int other_mark = 1;
 
     while(true)
     {
@@ -48,11 +48,11 @@ int main()
         }
     }
 
-    cout<<"Number all marks: "<<all_mark<<endl;
-    cout<<"Number small marks: "<<small_mark<<endl;
-    cout<<"Number big marks: "<<big_mark<<endl;
-    cout<<"Number numbers marks: "<<number_mark<<endl;
-    cout<<"Number others marks: "<<other_mark<<endl;
+    cout<<"Number all marks: "<<all_mark - 1<<endl;
+    cout<<"Number small marks: "<<small_mark - 1<<endl;
+    cout<<"Number big marks: "<<big_mark - 1<<endl;
+    cout<<"Number numbers marks: "<<number_mark - 1<<endl;
+    cout<<"Number others marks: "<<other_mark - 1<<endl;
 
     if (small_mark > big_mark && number_mark && other_mark)
     {
