@@ -18,7 +18,7 @@ int main()
         x = draw / 100;
         y = draw1 /100;
         
-        if (x * x + y * y <= 1 and x * x + y * y > 0)
+        if (x * x + y * y <= 1)
         {
             ++hit;
         }
